@@ -1,23 +1,91 @@
 aid: black-ore-technologies
 name: Black Ore Technologies
-description: Black Ore Technologies is a company surfaced as a portfolio company of a16z and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Black Ore Technologies is an Austin, Texas AI company building AI infrastructure for tax and
+  financial services. Founded in 2022 by Eyal Shinar (previously founder of the fintech unicorn
+  Fundbox) and Pavel Kapovski, the company emerged from stealth in November 2023 with $60 million
+  in funding led by Andreessen Horowitz (a16z) and Oak HC/FT. Its flagship product, Tax Autopilot,
+  combines proprietary AI with federal and state tax codes to autonomously execute the full
+  lifecycle of complex tax returns for Certified Public Accountants and accounting firms, spanning
+  document ingestion, intelligent extraction, return preparation, workpaper generation, and tax
+  software integration (UltraTax, Lacerte, ProConnect). The platform covers 1040 individual returns
+  plus 1041, 1065, and Schedule K-1/K-3 automation, and is used by 40% of the top 20 leading firms.
+  Black Ore does not publish a public developer API or OpenAPI at this time; its authentication is
+  handled by an Auth0-hosted OpenID Connect tenant at auth.blackore.ai.
 url: https://raw.githubusercontent.com/api-evangelist/black-ore-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Oak HC/FT
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://cdn.prod.website-files.com/68ecfebb353873d3847e78ca/68ecfebb353873d3847e7a29_black-ore-logo.svg
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Financial Services
+- Tax
+- Accounting
+- Fintech
+- Automation
+- Tax Preparation
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://blackore.ai/
+- type: Company
+  url: https://blackore.ai/company
+- type: Pricing
+  url: https://blackore.ai/pricing
+- type: Security
+  url: https://blackore.ai/security
+- type: TrustCenter
+  url: https://blackore.ai/security
+- type: Compliance
+  url: https://blackore.ai/security
+- type: PrivacyPolicy
+  url: https://blackore.ai/privacy-policy
+- type: TermsOfService
+  url: https://blackore.ai/terms-of-service
+- type: Blog
+  url: https://blackore.ai/news
+- type: SignUp
+  url: https://auth.blackore.ai/u/login/identifier
+- type: Login
+  url: https://auth.blackore.ai/u/login/identifier
+- type: LinkedIn
+  url: https://www.linkedin.com/company/black-ore-ai/
+- type: WellKnown
+  url: well-known/black-ore-technologies-well-known.yml
+- type: Authentication
+  url: authentication/black-ore-technologies-authentication.yml
+- type: Conformance
+  url: conformance/black-ore-technologies-conformance.yml
+- type: DomainSecurity
+  url: security/black-ore-technologies-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

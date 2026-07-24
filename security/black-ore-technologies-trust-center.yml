@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+url: https://blackore.ai/security
+certifications:
+- SOC 2 Type II
+frameworks:
+- AICPA Trust Services Criteria (Security, Availability, Confidentiality)
+controls:
+- AES-256 encryption at rest
+- TLS 1.2+ in transit
+- U.S.-based SOC 2-audited data centers
+- Enterprise SSO and MFA
+- Complete audit logging of every user action and data change
+- Secure multi-tenant data separation
+- Quarterly security reviews and continuous testing
+evidence:
+- source: https://blackore.ai/security
+  keywords: [soc 2 type ii, aicpa trust services criteria, aes-256, audit logging]
+notes: >-
+  Named certification and compliance posture published on the /security page. No dedicated
+  trust.blackore.ai portal, no ISO 27001/PCI/HIPAA/FedRAMP claims, and no published vulnerability
+  disclosure/bug-bounty program were found.

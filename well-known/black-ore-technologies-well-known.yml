@@ -1,0 +1,28 @@
+generated: '2026-07-18'
+method: searched
+source: https://auth.blackore.ai/.well-known/
+hosts:
+- host: https://auth.blackore.ai
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: black-ore-technologies-openid-configuration.json
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: black-ore-technologies-oauth-authorization-server.json
+- host: https://blackore.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+notes: >-
+  Authentication is delegated to an Auth0-hosted OpenID Connect tenant at auth.blackore.ai, which
+  publishes standard OIDC discovery and RFC 8414 OAuth authorization-server metadata. The primary
+  marketing/product host blackore.ai publishes no /.well-known/ discovery surface and no security.txt.
