@@ -72,6 +72,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Support
+  url: https://blackore.ai/schedule-a-call
 - type: Website
   url: https://blackore.ai/
 - type: Company
@@ -109,5 +111,3 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
-x-parent: black-ore
-x-relationship: product
