@@ -1,0 +1,42 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://blackore.ai/pricing
+sources:
+- https://blackore.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric price is published on the pricing page; Pricing page lists four plans, all 'Request Pricing';
+  no numeric prices shown (ROI calculator shows $0 placeholder only).
+plan_count: 4
+plans:
+- name: 1040 Automation
+  price_text: Request Pricing
+  period: none
+  included_quota: Automated 1040 preparation; Workpapers and tie-outs; AI-guided review for edge cases;
+    Anomaly detection & validations; Audit-ready outputs; Role-based access; Centralized binder structure;
+    Direct tax software export
+- name: 1065 Automation
+  price_text: Request Pricing
+  period: none
+  included_quota: Automated 1065 preparation; Workpapers and tie-outs; Structured review workflows; Multi-source
+    validation & review; End-to-end traceability; Field-level mapping
+- name: K-1 Automation
+  price_text: Request Pricing
+  period: none
+  included_quota: AI extraction and classification of complex K-1 packages; Footnote & grid extraction;
+    Automatic reclassifications; Reviewer logic with overrides; One-click export
+- name: Enterprise plan
+  price_text: Request Pricing
+  period: none
+  included_quota: Full suite of automation products; Dedicated support team; Enhanced user permissions
+    and security controls; Custom implementation and firm training; Enterprise SSO
