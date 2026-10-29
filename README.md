@@ -64,6 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Black Ore Technologies is a company surfaced as a portfolio company of a16z and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Black Ore Technologies is an Austin, Texas AI company building AI infrastructure for tax and financial services. Founded in 2022 by Eyal Shinar (previously founder of the fintech unicorn Fundbox) and Pavel Kapovski, the company emerged from stealth in November 2023 with $60 million in funding led by Andreessen Horowitz (a16z) and Oak HC/FT. Its flagship product, Tax Autopilot, combines proprietary AI with federal and state tax codes to autonomously execute the full lifecycle of complex tax returns for Certified Public Accountants and accounting firms, spanning document ingestion, intelligent extraction, return preparation, workpaper generation, and tax software integration (UltraTax, Lacerte, ProConnect). The platform covers 1040 individual returns plus 1041, 1065, and Schedule K-1/K-3 automation, and is used by 40% of the top 20 leading firms. Black Ore does not publish a public developer API or OpenAPI at this time; its authentication is handled by an Auth0-hosted OpenID Connect tenant at auth.blackore.ai.
 
-Backed by: a16z
+**Areas:** Company · Artificial Intelligence · Financial Services · Tax · Accounting · Fintech · Automation · Tax Preparation
+
+## Black Ore Technologies on APIs.io
+
+Everything profiled for Black Ore Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/black-ore-technologies/](https://apis.io/providers/black-ore-technologies/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Black Ore Technologies Authentication](https://apis.io/security/black-ore-technologies/black-ore-technologies-authentication/)
+- [Black Ore Technologies Domain Security](https://apis.io/security/black-ore-technologies/black-ore-technologies-domain-security/)
+- [Black Ore Technologies Trust Center](https://apis.io/security/black-ore-technologies/black-ore-technologies-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Black Ore Technologies Plans Pricing](https://apis.io/plans/black-ore-technologies/black-ore-technologies-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://blackore.ai/)
+- [Pricing](https://blackore.ai/pricing)
+- [Sign up](https://auth.blackore.ai/u/login/identifier)
+- [Support](https://blackore.ai/schedule-a-call)
+- [Blog](https://blackore.ai/news)
+- [Security](https://blackore.ai/security)
+- [Compliance](https://blackore.ai/security)
+- [Trust centre](https://blackore.ai/security)
+- [Terms of service](https://blackore.ai/terms-of-service)
+- [Privacy policy](https://blackore.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 31.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 85.5 |
+
+**Agent readiness 15.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/black-ore-technologies/](https://apis.io/providers/black-ore-technologies/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Black Ore Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/black-ore-technologies/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
